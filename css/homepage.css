@@ -1,0 +1,509 @@
+/* Globals / helpers */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.hidden {
+     width: 0;
+     height: 0;
+     display: block;
+     overflow: hidden;
+}
+
+/* Image replacement */
+
+.ir {
+     text-indent: 100%;
+     white-space: nowrap;
+     overflow: hidden;
+}
+
+/* Nav Bar */
+
+.header-bg-home {
+	height: 60px;
+/*  background: #eee;*/
+}
+
+.nav-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav a {
+	text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #000;
+	font-family: 'Josefin Sans', "Helvetica", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 800;
+  -webkit-transition: all 0.5s linear;
+  transition: color 0.55s linear;
+}
+
+nav a:hover {
+	color: #3389E8;
+  font-weight: 800;
+}
+
+/* Background image - blackboard */
+
+.blackboard {
+  background: url(../img/chalk-bg.jpg) center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  box-shadow: inset 0 0 5px rgba(0,0,0,1);
+  height: 600px;
+  width: 100%;
+}
+
+.chalk-text {
+  color: white;
+  padding-top: 15px;
+  text-align: center;
+  font-family: 'Josefin Sans'; sans-serif;
+  letter-spacing: 5px;
+}
+
+.connect {
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+.advise {
+  margin-top: 0px;
+  padding-top: 3px;
+  font-family: 'Josefin Sans'; sans-serif;
+  text-transform: uppercase;
+  font-size: 60px;
+}
+
+.info {
+  font-size: 18px;
+  line-height: 150%;
+}
+
+
+
+
+/* Students */
+
+
+.students h4 {
+font-family: 'Josefin Sans', sans-serif;
+color: black;
+text-decoration: none;
+font-size: 30px;
+line-height: 35px;
+font-weight: 700;
+letter-spacing: 2px;
+text-transform: uppercase;
+margin-top: 50px;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.taster-img {
+  background: url(../img/finance.jpg) center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 230px;
+}
+
+.taster-img2 {
+  background: url(../img/creative.jpg) center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 230px;
+}
+
+
+
+.taster-img3 {
+  background: url(../img/science.jpg) center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 230px;
+}
+
+
+
+.taster-img4 {
+  background: url(../img/practical.jpg) center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 230px;
+}
+
+
+.taster-img5 {
+  background: url(../img/entrepreneurship.jpg) center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 230px;
+}
+
+.taster-img6 {
+  background: url(../img/journalism.jpg) center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 230px;
+}
+
+.taster-img7 {
+  background: url(../img/technology.jpg) center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 230px;
+}
+
+.taster-img8 {
+  background: url(../img/education.jpg) center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 230px;
+}
+
+
+
+.taster-content h4 {
+  font-family: 'Josefin Sans', "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  margin-top: 100px;
+}
+
+.taster-content-a h4 {
+  font-family: 'Josefin Sans', "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  margin-top: 100px;
+  color: #fff;
+}
+
+.taster-content-b h4 {
+  font-family: 'Josefin Sans', "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  margin-top: 100px;
+  color: #fff;
+}
+
+.taster-content-c h4 {
+  font-family: 'Josefin Sans', "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  margin-top: 100px;
+  color: yellow;
+}
+
+.taster-content-d h4 {
+    font-family: 'Josefin Sans', "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  margin-top: 100px;
+  color: #fff;
+}
+
+.taster-content-e h4 {
+  font-family: 'Josefin Sans', "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  margin-top: 100px;
+  color: #000;
+}
+
+.taster-content-f h4 {
+  font-family: 'Josefin Sans', "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  margin-top: 100px;
+  color: #fff;
+}
+
+.taster-content-g h4 {
+  font-family: 'Josefin Sans', "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  margin-top: 100px;
+  color: #fff;
+}
+
+.taster-content-h h4 {
+  font-family: 'Josefin Sans', "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  margin-top: 100px;
+  color: #fff;
+}
+
+.taster-content h5 {
+  font-family: 'Josefin Sans', "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  color: rgb(236,214,0);
+  vertical-align: 
+
+}
+
+.width {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: initial;
+}
+
+/*Why use Kureous*/
+
+.students-why {
+  height: 200px;
+}
+
+.students-why h4 {
+font-family: 'Josefin Sans', sans-serif;
+color: #3b3b3b;
+font-size: 30px;
+line-height: 35px;
+font-weight: 700;
+text-align: left;
+letter-spacing: 2px;
+text-transform: uppercase;
+margin-top: 50px;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.students-why p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #3b3b3b;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+
+/* Header Line under title */
+.nav-line {
+  border-bottom: 3px solid #fff;
+  outline: none;
+  border-bottom-width: 1px;
+  margin-top: 0px;
+}
+
+
+
+/* Mentors */
+
+.mentors {
+  background: url(../img/ocean2.png) center center no-repeat;
+  height: 600px;
+}
+
+.mentors h4 {
+font-family: 'Josefin Sans', sans-serif;
+color: white;
+font-size: 27px;
+line-height: 40px;
+font-weight: 600;
+text-align: left;
+letter-spacing: 2px;
+text-transform: uppercase;
+margin-top: 50px;
+margin-bottom: 20px;
+}
+
+
+.mentors p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 600;
+  text-align: left;
+  letter-spacing: 2px;
+}
+
+
+/* Footer */
+
+.footer {
+  color: #000;
+  height: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer h4 {
+  font-size: 14px;
+}
+
+.footer p, li {
+  font-size: 12px;
+}
+
+footer {
+     text-align: center;
+}
+
+footer ul {
+     padding: 0;
+     list-style: none;
+}
+
+footer li {
+     display: inline-block;
+}
+
+.information li {
+  list-style: none;
+}
+
+
+/* Sprites */
+
+.sprite {
+     background: url("../img/sprites.png") no-repeat;
+}
+
+.socials-icon a {
+     display: block;
+     width: 64px;
+     height: 64px;
+}
+
+.facebook {
+    background-position: 0 0;
+}
+
+.facebook:hover {
+     background-position-y: -61px ;
+}
+
+.linkedIn {
+     background-position: -77px 0;
+}
+
+.linkedIn:hover {
+     background-position-y: -61px ;
+}
+
+.twitter {
+     background-position: -153px 0;
+}
+
+.twitter:hover {
+     background-position-y: -61px ;
+}
+
+
+/* Form - MENTORS */
+
+.form {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+input {
+  width: 100%;
+  font-size: 1.5em;
+  font-family: Georgia, serif;
+  border-radius: 2px;
+}
+
+input[type="advisor"],
+input[type="email"],
+input[type="profession"] {
+  height: 70px;
+  padding-top: 13px;
+  padding-left: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #3b3b3b;
+  border: 0;
+  font-size: 19px;
+  font-weight: 600;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  vertical-align: middle;
+  margin: 10px;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  height: 70px;
+  padding-top: 13px;
+  padding-left: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #3b3b3b;
+  border: 0;
+  font-weight: 600;
+  background-color: rgb(236,214,0);
+  border: 1px solid rgb(236,214,0);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  vertical-align: middle;
+  text-align: center;
+  margin: 10px;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 777px) {
+
+  .mentors {
+    height: 680px;
+  }
+
+}
+
+
+@media only screen and (max-width: 710px) {
+
+  .blackboard {
+    height: 680px;
+    }
+
+  .blackboard h1 {
+    font-size: 40px;
+  }
+
+  .mentors {
+    height: 761px;
+  }
+
+    .footer {
+    height: 460px;
+    text-align: center;
+  }
+
+
+@media only screen and (max-width: 590px) {
+
+  .blackboard {
+    height: 870px;
+  }
+
+  .mentors {
+    height: 960px;
+  }
+
+  @media only screen and (max-width: 500px) {
+
+    .blackboard {
+      height: 845px;
+    }
+
+
+
+
+
+
